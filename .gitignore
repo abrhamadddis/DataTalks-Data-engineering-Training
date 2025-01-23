@@ -1,3 +1,4 @@
 .venv
 data
 .env
+ny_taxi_postgres_data

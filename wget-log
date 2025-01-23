@@ -1,0 +1,8 @@
+--2025-01-17 22:30:31--  https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2021-01.parquet
+Resolving d37ci6vzurychx.cloudfront.net (d37ci6vzurychx.cloudfront.net)... 3.164.82.112, 3.164.82.40, 3.164.82.197, ...
+Connecting to d37ci6vzurychx.cloudfront.net (d37ci6vzurychx.cloudfront.net)|3.164.82.112|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21686067 (21M) [application/x-www-form-urlencoded]
+Saving to: ‘parquet_name.parquet’
+
+     0K .......... .......... .......... .......... ........
