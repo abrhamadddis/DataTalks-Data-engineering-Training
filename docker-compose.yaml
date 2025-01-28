@@ -13,12 +13,19 @@ services:
       - "./ny_taxi_postgres_data:/var/lib/postgresql/data:rw"
     ports:
       - "5432:5432"
-
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    ports:
+      - "8080:80"
   adminer:
     image: adminer
     restart: always
     ports:
-      - "8080:8080"
+      - "8081:8080"
   
   python_app:
     build:
@@ -37,4 +44,4 @@ services:
       URL: ${URL}
     volumes:
       - ".:/usr/src/app"
-    command: ["python", "ingest_data.py"]
+    # command: ["python", "ingest_data.py"]
