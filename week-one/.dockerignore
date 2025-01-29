@@ -1,0 +1,6 @@
+Dockerfile
+*.parquet
+*.pyc
+notebooks/
+docker SQL/
+ny_taxi_postgres_data/
