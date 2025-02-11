@@ -13,7 +13,7 @@ inputs:
   - id: year
     type: SELECT
     displayName: Select year
-    values: ["2019", "2020"]
+    values: ["2019", "2020", "2021"]
     defaults: "2019"
 
   - id: month
@@ -255,12 +255,12 @@ tasks:
     type: io.kestra.plugin.jdbc.postgresql.Queries
     sql: |
       TRUNCATE TABLE {{render(vars.staging_table)}};  
-  - id: purge_files
-    type: io.kestra.plugin.core.storage.PurgeCurrentExecutionFiles
-    description: This will remove output files. If you'd like to explore Kestra outputs, disable it. 
+  # - id: purge_files
+  #   type: io.kestra.plugin.core.storage.PurgeCurrentExecutionFiles
+  #   description: This will remove output files. If you'd like to explore Kestra outputs, disable it. 
 pluginDefaults:
   - type: io.kestra.plugin.jdbc.postgresql
     values:
       url: jdbc:postgresql://db:5432/ny_taxi_data
-      username: root
-      password: root
+      username: $(POSTGRES_USER)
+      password: $(POSTGRES_PASSWORD)

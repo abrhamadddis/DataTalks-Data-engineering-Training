@@ -39,9 +39,9 @@ tasks:
         outputs:
           dev:
             type: postgres
-            host: localhost
-            user: root
-            password: root
+            host: 192.168.0.119
+            user: $(POSTGRES_USER)
+            password: $(POSTGRES_PASSWORD)
             port: 5432
             dbname: ny_taxi_data
             schema: public
