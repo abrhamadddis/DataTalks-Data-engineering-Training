@@ -4,7 +4,7 @@
 This phase of the project extends the NYC Taxi Data Pipeline by integrating workflow orchestration using Kestra. Kestra is an open-source, event-driven orchestration platform that simplifies building both scheduled and event-driven workflows. By adopting Infrastructure as Code practices for data and process orchestration, Kestra enables structured workflows for data ingestion, transformation, and analysis using YAML-based configurations and containerized execution.
 
 ## Directory Structure
-
+```sh
 ├── docker-compose.yml                        # Docker Compose configuration file for setting up services  
 ├── flows/                                    # Contains YAML files for various data engineering workflows  
 │   ├── gcp_dbt.yaml                          # Configuration for DBT (Data Build Tool) on GCP  
@@ -18,7 +18,7 @@ This phase of the project extends the NYC Taxi Data Pipeline by integrating work
 │   ├── file_size.yaml                        # Task for calculating file size  
 │   ├── number_of_rows.yaml                   # Task for counting the number of rows  
 │   ├── rendered_value.yaml                   # Task for rendering values  
-
+```
 ## Environment Variables
 Ensure you have a `.env` file in the root directory with the following content:
 
