@@ -8,10 +8,12 @@ This project ingests, stores, and queries NYC Yellow Taxi trip data. The pipelin
 
 ```sh
 .
-├── homework/                                # SQL queries for analysis
+├── homework/             # SQL queries for analysis
 │   └── answer.sql
-├── load_yellow_taxi_data.py                 # Script to download and upload data to GCS
+├── load_yellow_taxi_data.py  # Script to download anz upload data to GCS
+├── workshop/          # contain a notebook for ingestion of ny taxi data using dlt tool
 ```
+``
 
 ## Data Ingestion and Processing
 
