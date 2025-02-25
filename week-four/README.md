@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Welcome to your new dbt project!
 
 ### Using the starter project
@@ -13,3 +14,6 @@ Try running the following commands:
 - Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+=======
+## analytics-engineering
+>>>>>>> 8a1614430606cb1a03848f103b2b2f050b2fc6c6
