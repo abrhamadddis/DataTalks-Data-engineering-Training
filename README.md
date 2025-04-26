@@ -56,7 +56,7 @@ This repository contains a comprehensive data engineering training program that 
 
 ## Final Project
 
-The culmination of all directories is applied in a real-world scenario. Check out the final project implementation in the [DataTalks Final Project Repository](https://github.com/yourusername/datatalks-final-project).
+The culmination of all directories is applied in a real-world scenario. Check out the final project implementation in the [DataTalks Capstone Project Repository](https://github.com/abrhamadddis/london-cycling-active-travel-insights-data-pipeline).
 
 ## Getting Started
 
