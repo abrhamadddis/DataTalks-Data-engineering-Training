@@ -19,22 +19,22 @@ This repository contains a comprehensive data engineering training program that 
 ## Directory Structure
 
 ### `docker-and-terraform/`
-Learn containerization with Docker, infrastructure as code with Terraform, and cloud services with GCP.
+> Learn containerization with Docker, infrastructure as code with Terraform, and cloud services with GCP.
 
 ### `orchestration/`
-Master workflow orchestration using Kestra and understand data lake architectures.
+> Master workflow orchestration using Kestra and understand data lake architectures.
 
 ### `batch-processing/`
-Develop skills in API integration, data normalization, and scalable pipeline design.
+> Develop skills in API integration, data normalization, and scalable pipeline design.
 
 ### `data-warehouisng/`
-Explore BigQuery, data partitioning, clustering strategies, and machine learning capabilities.
+> Explore BigQuery, data partitioning, clustering strategies, and machine learning capabilities.
 
 ### `analytics-engineering/`
-Implement analytics engineering with dbt, focusing on testing, documentation, and visualization.
+> Implement analytics engineering with dbt, focusing on testing, documentation, and visualization.
 
 ### `stream-processing/`
-Build real-time data pipelines with Kafka, Kafka Streams, and Avro schema management.
+> Build real-time data pipelines with Kafka, Kafka Streams, and Avro schema management.
 
 ## Final Project
 
