@@ -10,7 +10,7 @@ Master the fundamentals of data engineering by building an end-to-end data pipel
 - [Directory Structure](#directory-structure)
 - [Final Project](#final-project)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
+- [Resources](#resources)
 
 ## Repository Overview
 
@@ -72,6 +72,22 @@ The culmination of all directories is applied in a real-world scenario. Check ou
    ```
 
 3. Follow the directory-specific README for setup and execution instructions.
+
+## Resources
+
+### Program Website
+- [DataTalks Club](https://datatalks.club/) - Official website for the DataTalks community
+
+### Documentation
+- [Docker Documentation](https://docs.docker.com/)
+- [Terraform Documentation](https://www.terraform.io/docs)
+- [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
+- [dbt Documentation](https://docs.getdbt.com/)
+- [Google Cloud Documentation](https://cloud.google.com/docs)
+
+### Community
+- [DataTalks Club Slack](https://datatalks-club.slack.com/) - Join our Slack community
+- [Data Engineering Zoomcamp Discussions](https://github.com/DataTalksClub/data-engineering-zoomcamp/discussions) - Course discussions and Q&A
 
 
 
