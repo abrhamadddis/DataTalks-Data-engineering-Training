@@ -73,10 +73,5 @@ The culmination of all directories is applied in a real-world scenario. Check ou
 
 3. Follow the directory-specific README for setup and execution instructions.
 
-## Contributing
 
-Feel free to contribute to this project by:
-- Adding new features
-- Improving documentation
-- Fixing bugs
-- Adding more examples
+
